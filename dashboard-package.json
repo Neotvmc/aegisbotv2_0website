@@ -1,0 +1,21 @@
+{
+  "name": "aegisbot-dashboard",
+  "version": "1.0.0",
+  "description": "AegisBot Dashboard für Vercel",
+  "main": "api/dashboard-server.js",
+  "scripts": {
+    "start": "node api/dashboard-server.js",
+    "dev": "node api/dashboard-server.js",
+    "build": "echo 'Build completed'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["whatsapp", "bot", "dashboard", "aegisbot"],
+  "author": "AegisBot",
+  "license": "MIT"
+}
